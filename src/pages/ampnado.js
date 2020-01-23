@@ -15,7 +15,7 @@ const AmpnadoPage = () => (
 
 
 
-    <Link to="/">Go To Home Page</Link>
+    <Link to="/">Go Back To Home Page</Link>
     <p>
       <Link to="/mediacenter">Go To MediaCenter Page</Link>
     </p>
