@@ -14,8 +14,13 @@ const IndexPage = () => (
       Welcome to my projects page, my name is Charlie Smotherman and here
       is were I share some of my projects I have created with the world.
     </p>
-    <a href={ PDF }>
-      <button type="button" style={{backgroundColor: "red", marginBottom: 35}}>
+    <a href={ PDF } >
+      <button
+        type="button" 
+        style={{
+          backgroundColor: "red",
+          marginBottom: 35
+          }}>
         <h1 style={{margin: "auto", color: "white"}}>HIRE ME</h1>
       </button>
     </a>
@@ -37,7 +42,6 @@ const IndexPage = () => (
           AlphaTree
         </h2>
       </Link>
-    <span style={{margin: 5}}></span>
     <span style={{margin: 5}}></span>
     <Link to="/deployments/">
       <h2>
