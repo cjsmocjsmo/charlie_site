@@ -10,20 +10,26 @@ import PDF from '../images/resume.pdf'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    <div style={{textAlign: "center"}}>
+      <a href={ PDF } >
+        <button
+          type="button" 
+          style={{
+            display: "inline-block",
+            backgroundColor: "red"
+            }}>
+          <h1 style={{margin: "auto", color: "white"}}>HIRE ME</h1>
+        </button>
+      </a>
+
+    </div>
     <p style={{marginTop: 20}}>
       Welcome to my projects page, my name is Charlie Smotherman and here
       is were I share some of my projects I have created with the world.
     </p>
-    <a href={ PDF } >
-      <button
-        type="button" 
-        style={{
-          backgroundColor: "red",
-          marginBottom: 35
-          }}>
-        <h1 style={{margin: "auto", color: "white"}}>HIRE ME</h1>
-      </button>
-    </a>
+    
+
+
 
     <Link to="/ampnado/" >
       <h2>
@@ -37,7 +43,7 @@ const IndexPage = () => (
       </h2>
     </Link>
     <span style={{margin: 5}}></span>
-      <Link to="/deployments/">
+      <Link to="/alphatree/">
         <h2>
           AlphaTree
         </h2>
@@ -49,10 +55,6 @@ const IndexPage = () => (
       </h2>
     </Link>
     <span style={{margin: 5}}></span>
-
-
-
-
     <div 
       style={{ 
         margin: 'auto', 
