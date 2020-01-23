@@ -7,12 +7,15 @@ import ImageThree from "../components/imagethree"
 
 const MediaCenterPage = () => (
   <Layout>
-    <SEO title="Page three" />
-    <h1 id="P2">Hi from the third page</h1>
+    <SEO title="MediaCenter Page" />
+    <h1 id="P2">Hi from Media Center</h1>
     
     <ImageThree/>
     <p>Welcome to page 23333332</p>
-    <Link to="/">Go back to the homepage</Link>
+    <Link to="/ampnado/">Go Back To Ampnado Page</Link>
+    <p>
+      <Link to="/deployments/">Go To Deployments Page</Link>
+    </p>
   </Layout>
 )
 
