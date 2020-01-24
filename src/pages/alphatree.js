@@ -3,20 +3,32 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
+import ImageTwo from '../components/imagetwo'
+import AT from '../images/AlphaTree.jpg'
 
 const AlphaTreePage = () => (
   <Layout>
     <SEO title="AlphaTree Page" />
     <h1 id="P2">AlphaTree Service</h1>
-    
-  
- 
+    <p style={{marginTop: 30}}>
+      AlphaTree is designed to give its owner a web presence, and to 
+      mainly generate telephone leads.  The website was built using HTML5
+      and the BootStrap CSS framework. Golang was used to write the HTTP 
+      server and a 
 
+      was used to create the 17MB container image that is being
+      hosted on Heroku Cloud Services
+    </p>
+    <div style={{maxWidth: 400, margin: "auto"}}>
+      <ImageTwo />
+    </div>
+
+
+    
 
 
     <div style={{height: 30}}></div>
-    <Link to="/mediacenter/">Go Back To MediaCenter Page</Link>
+    <Link to="/deployments/">Go Back To Deployments Page</Link>
     <p>
         <Link to="/">Go To Home Page</Link>
     </p>
