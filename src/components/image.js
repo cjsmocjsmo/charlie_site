@@ -18,7 +18,7 @@ const Image = () => {
     query {
       placeholderImage: file(relativePath: { eq: "ampnado.png" }) {
         childImageSharp {
-          fluid(maxWidth: 600) {
+          fluid(maxWidth: 800) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -26,7 +26,7 @@ const Image = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid}  />
 }
 
 export default Image
