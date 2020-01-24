@@ -26,7 +26,12 @@ const IndexPage = () => (
     <p style={{marginTop: 20}}>
       Welcome to my projects page, my name is Charlie Smotherman and here
       is were I share some of my projects I have created with the world.
+      I am a self taught programmer who started out on a Commadore64 making
+      bacic games.
     </p>
+    <Link to="">
+      <button type="button" style={{color: "black", float: "right"}}>Read More</button>
+    </Link>
     
 
 
@@ -55,6 +60,20 @@ const IndexPage = () => (
       </h2>
     </Link>
     <span style={{margin: 5}}></span>
+    <Link to="//">
+      <h2>
+        GitHub
+      </h2>
+    </Link>
+    <span style={{margin: 5}}></span>
+    <Link to="//">
+      <h2>
+        DockerHub
+      </h2>
+    </Link>
+    <span style={{margin: 5}}></span>
+
+
     <div 
       style={{ 
         margin: 'auto', 
