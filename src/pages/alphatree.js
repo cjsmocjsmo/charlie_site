@@ -1,10 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ImageTwo from '../components/imagetwo'
-import AT from '../images/AlphaTree.jpg'
+import AlphaTreeImage from '../components/AlphaTreeImage'
+import HerokuDepLogo from '../components/HerokuDepLogo'
 
 const AlphaTreePage = () => (
   <Layout>
@@ -20,13 +19,10 @@ const AlphaTreePage = () => (
       hosted on Heroku Cloud Services
     </p>
     <div style={{maxWidth: 400, margin: "auto"}}>
-      <ImageTwo />
+      <AlphaTreeImage />
     </div>
-
-
-    
-
-
+    <div style={{height: 30}}></div>
+    <HerokuDepLogo />
     <div style={{height: 30}}></div>
     <Link to="/deployments/">Go Back To Deployments Page</Link>
     <p>
