@@ -29,13 +29,9 @@ const IndexPage = () => (
       I am a self taught programmer who started out on a Commadore64 making
       bacic games.
     </p>
-    <Link to="">
+    <Link to="/ReadMore/">
       <button type="button" style={{color: "black", float: "right"}}>Read More</button>
     </Link>
-    
-
-
-
     <Link to="/ampnado/" >
       <h2>
         Ampnado
