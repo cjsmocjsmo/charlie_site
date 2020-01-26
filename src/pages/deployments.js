@@ -24,15 +24,20 @@ const DeploymentsPage = () => (
     </p>
     <p>
         <h2>Heroku Cloud Services</h2>
-        <Link to="http:/54.200.123.91:9191/">
+        <a href="https://aqueous-shore-04475.hrokuapp.com/alphatree">
           AlpaTree
-        </Link>
+        </a>
+        {/* <Link to="http:/54.200.123.91:9191/">
+          link2
+        </Link> */}
     </p>
     <p style={{marginTop: 20}}>
       <HerokuDepLogo />
     </p>
     <div style={{height: 30}}></div>
-    <Link to="/alphatree/">Go Back To AlphaTree Page</Link>
+
+
+    {/* <Link to="/alphatree/">Go Back To AlphaTree Page</Link> */}
     <p>
         <Link to="/">Go To Home Page</Link>
     </p>
