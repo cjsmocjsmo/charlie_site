@@ -27,11 +27,8 @@ const IndexPage = () => (
       Welcome to my projects page, my name is Charlie Smotherman and here
       is were I share some of my projects I have created with the world.
       I am a self taught programmer who started out on a Commadore64 making
-      bacic games.
+      bacic games.  Read more <Link to="/ReadMore/">(it's a long read)</Link>.
     </p>
-    <Link to="/ReadMore/">
-      <button type="button" style={{color: "black", float: "right"}}>Read More</button>
-    </Link>
     <Link to="/ampnado/" >
       <h2>
         Ampnado
