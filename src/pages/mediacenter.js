@@ -50,9 +50,9 @@ const MediaCenterPage = () => (
 
     <MediaCenter />
     <div style={{height: 30}}></div>
-    <Link to="/ampnado/">Go Back To Ampnado Page</Link>
+    {/* <Link to="/ampnado/">Go Back To Ampnado Page</Link> */}
     <p>
-      <Link to="/deployments/">Go To Deployments Page</Link>
+      <Link to="/alphatree/">Go To AlphaTree Page</Link>
     </p>
   </Layout>
 )
