@@ -26,12 +26,12 @@ const AmpnadoPage = () => (
       placed into a MongoDB database for persistence.
     </p>
     <p>
-      Ampnado has been written in Python, HTML5, CSS3 JQuery, JQuery-Mobile 
-      and utilizes MongoDB database. I have Ampnado running on a Raspberry Pi 
-      that has a 128GB microSD card with 13,000 songs and growing.
+      I have Ampnado running on a Raspberry Pi that has a 128GB microSD 
+      card with 13,000 songs and growing.
     </p>
+    <h3>Teck Used</h3>
     <AmpnadoTech />
-    <Link to="/">Go Back To Home Page</Link>
+    {/* <Link to="/">Go Back To Home Page</Link> */}
     <p>
       <Link to="/mediacenter">Go To MediaCenter Page</Link>
     </p>
