@@ -11,9 +11,9 @@ const MediaCenterPage = () => (
     <h1 id="P2">MediaCenter</h1>
     <div style={{height: 30}}></div>
     <p>MediaCenter is written in Golang and is primarily meant to be used on
-      the <a href="/">Raspberry Pi</a>.  MediaCenter is a mashup of two other
-      projects MovieGo and TVGo.  MediaCenter was written to solve three main
-      problems.
+      the <a href="https://www.raspberrypi.org/">Raspberry Pi</a>.  MediaCenter is a mashup of two other
+      projects MovieGo and TVGo.  <a href="https://github.com/cjsmocjsmo/MediaCenter">MediaCenter</a>
+      was written to solve three main problems.
     </p>
     <div style={{maxWidth: 400, margin: "auto"}}>
       <MediaCenterImage />
@@ -45,7 +45,9 @@ const MediaCenterPage = () => (
       MediaCenter can be accessed from any device that has a web browser.
       Currently Omxplayer playback is only supported.  Per device support
       is not there yet.  I find that an old phone can be used as a MovieGo 
-      remote control.
+      remote control.  Due to copyright restrictions I cannot setup a demo.  
+      MovieCenter is not intended to be on the larger internet but is meant 
+      to be isolated on my home network.
     </p>
 
     <MediaCenter />
