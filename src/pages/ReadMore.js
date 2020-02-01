@@ -22,7 +22,7 @@ const IndexPage = () => (
         <li>FreeCodeCamp.org</li>
           <ul>
             <li>Responsive Web Design Certificate (300hrs)</li>
-            <li>the next new cert</li>
+            <li>Javascript Alogrithms and Data Structures (working)</li>
           </ul>
       </ul>
     </p>
