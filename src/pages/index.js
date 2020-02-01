@@ -27,7 +27,7 @@ const IndexPage = () => (
       Welcome to my projects page, my name is Charlie Smotherman and here
       is were I share some of my projects I have created with the world.
       I am a self taught programmer who started out on a Commadore64 making
-      bacic games.  Read more <Link to="/ReadMore/">(it's a long read)</Link>.
+      bacic games.  <Link to="/ReadMore/">Read more</Link> (it's a long read).
     </p>
     <Link to="/ampnado/" >
       <h2>
