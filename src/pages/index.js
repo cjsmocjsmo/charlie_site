@@ -53,17 +53,17 @@ const IndexPage = () => (
       </h2>
     </Link>
     <span style={{margin: 5}}></span>
-    <Link to="//">
+    <a href="https://github.com/cjsmocjsmo">
       <h2>
         GitHub
       </h2>
-    </Link>
+    </a>
     <span style={{margin: 5}}></span>
-    <Link to="//">
+    <a href="https://hub.docker.com/?ref=login">
       <h2>
         DockerHub
       </h2>
-    </Link>
+    </a>
     <span style={{margin: 5}}></span>
 
 
