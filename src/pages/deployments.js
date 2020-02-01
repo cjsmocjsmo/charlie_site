@@ -15,16 +15,16 @@ const DeploymentsPage = () => (
     </p>
     <p>
         <h2>AWS Cloud Services</h2>
-        <Link to="http:/54.200.123.91:9191/">
+        <a href="http://54.200.123.91:9191/">
           MyBlog
-        </Link>
+        </a>
         <p style={{marginTop: 20}}>
           <AWSDepLogo />
         </p>
     </p>
     <p>
         <h2>Heroku Cloud Services</h2>
-        <a href="https://aqueous-shore-04475.hrokuapp.com/alphatree">
+        <a href="https://aqueous-shore-04475.herokuapp.com/alphatree">
           AlpaTree
         </a>
         {/* <Link to="http:/54.200.123.91:9191/">
