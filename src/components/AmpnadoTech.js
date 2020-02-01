@@ -6,6 +6,7 @@ import JQM from '../images/jquery_mobile.png'
 import MDB from '../images/mongodb.png'
 import JQ from '../images/jquery-logo.png'
 import PythonL from '../images/python-logo.png'
+import Berry from '../images/berry.jpg'
 
 
 const AmpnadoTech = () => (
@@ -14,7 +15,7 @@ const AmpnadoTech = () => (
       style={{
       display: "flex",
       flexDirection: "row",
-      flexWrap: "nowrap",
+      flexWrap: "wrap",
       justifyContent: "center",
       alignItems: "stretch",
       alignContent: "center",
@@ -26,6 +27,7 @@ const AmpnadoTech = () => (
       <img src={ JQM } style={{height: 48}} alt="" />
       <img src={ Docker } style={{height: 48}} alt="" />
       <img src={ PythonL } style={{height: 48}} alt="" />
+      <img src={ Berry } style={{height: 48}} alt="" />
   </div>
 
 )
