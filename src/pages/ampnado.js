@@ -27,9 +27,15 @@ const AmpnadoPage = () => (
     </p>
     <p>
       I have Ampnado running on a Raspberry Pi that has a 128GB microSD 
-      card with 13,000 songs and growing.
+      card with 13,000 songs and growing.  Due to copyright restrictions I
+      cannot provide a decent demo.  Besides Ampnado was not designed to be out
+      on the larger internet but instead to be isolated on my home network.  Ampnado
+      is my programing playground.  I am always trying to find ways of making it
+      faster, more effecient.  Some of the upcoming changes will be to move away from 
+      JQuery-Mobile and upgrade to React, GraphQl for the front end ( this will probable
+      be a major rewrite ).
     </p>
-    <h3>Teck Used</h3>
+    <h3>Tec Used</h3>
     <AmpnadoTech />
     {/* <Link to="/">Go Back To Home Page</Link> */}
     <p>
