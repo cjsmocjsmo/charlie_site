@@ -14,13 +14,22 @@ const DeploymentsPage = () => (
       deployed several sites with an assortment of cloud providers.
     </p>
     <p>
-        <h2>AWS Cloud Services</h2>
-        <a href="http://54.200.123.91:9191/">
-          MyBlog
-        </a>
+        <h2>AWS Amplify</h2>
+        {/* <a href="http://54.200.123.91:9191/"> */}
+        <div>
+          <a href="https://master.d2zt8y9jdefmo9.amplifyapp.com/">
+            Charlie
+          </a>
+        </div>
+        <div>
+          <a href="https://master.d2tvn6b4xguc2q.amplifyapp.com">
+            Hello/Goodbye
+          </a>
+        </div>
         <p style={{marginTop: 20}}>
           <AWSDepLogo />
         </p>
+
     </p>
     <p>
         <h2>Heroku Cloud Services</h2>

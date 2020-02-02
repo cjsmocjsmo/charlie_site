@@ -1,9 +1,5 @@
 import React from 'react'
-import GOL from '../images/golang.jpg'
-import Alpine from '../images/alpine.png'
-import Docker from '../images/docker.png'
-import BS from '../images/bootstrap.png'
-import Html from '../images/html.png'
+import Gat from '../images/gatsby.jpg'
 import AWS from '../images/aws.png'
 
 const AWSDepLogo = () => (
@@ -18,11 +14,8 @@ const AWSDepLogo = () => (
         alignContent: "center"
     }}>
     <img src={ AWS } style={{height: 48}} alt="" />
-    <img src={ GOL } style={{height: 48}} alt="" />
-    <img src={ Docker } style={{height: 48}} alt="" />
-    <img src={ Alpine } style={{height: 48}} alt="" />
-    <img src={ BS } style={{height: 48}} alt="" />
-    <img src={ Html } style={{height: 48}} alt="" />
+    <img src={ Gat } style={{height: 48}} alt="" />
+    
   </div>
 
 )
