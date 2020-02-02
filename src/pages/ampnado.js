@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import AmpnadoImage from "../components/AmpnadoImage"
 import AmpnadoTech from '../components/AmpnadoTech'
+import AmpVid from '../images/Ampnadovid.webm'
 
 const AmpnadoPage = () => (
   <Layout>
@@ -25,7 +26,17 @@ const AmpnadoPage = () => (
       at this time I may include it at a later date.  This metadata is then 
       placed into a MongoDB database for persistence.
     </p>
-    <p>
+    <div style={{display: "block"}}>
+      <video style={{
+                display: "block",
+                width: 240, 
+                height: 360, 
+                marginRight: "auto",
+                marginLeft: "auto"}} controls>
+        <source src={ AmpVid }></source>
+      </video>
+    </div>
+    <p style={{paddingTop: 20}} >
       I have Ampnado running on a Raspberry Pi that has a 128GB microSD 
       card with 13,000 songs and growing.  Due to copyright restrictions I
       cannot provide a decent demo.  Besides Ampnado was not designed to be out
