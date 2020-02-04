@@ -4,6 +4,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import AWSDepLogo from '../components/AWSDepLogo'
 import HerokuDepLogo from '../components/HerokuDepLogo'
+import GatLogo from '../components/GatLogo'
+
 const DeploymentsPage = () => (
   <Layout>
     <SEO title="Deployments Page" />
@@ -21,6 +23,10 @@ const DeploymentsPage = () => (
           </a>
         </div>
     </p>
+    <p style={{marginTop: 20}}>
+      <AWSDepLogo/>
+    </p>
+
     <p>    
         <h2>Gastby Cloud</h2>
         <div>
@@ -28,6 +34,9 @@ const DeploymentsPage = () => (
             Hello/Goodbye
           </a>
         </div>
+    </p>
+    <p style={{marginTop: 20}}>
+      <GatLogo />
     </p>
     <p>
         <h2>Heroku Cloud Services</h2>
