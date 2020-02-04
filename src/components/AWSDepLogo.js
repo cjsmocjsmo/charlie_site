@@ -15,7 +15,6 @@ const AWSDepLogo = () => (
     }}>
     <img src={ AWS } style={{height: 48}} alt="" />
     <img src={ Gat } style={{height: 48}} alt="" />
-    
   </div>
 
 )
