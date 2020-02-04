@@ -15,21 +15,19 @@ const DeploymentsPage = () => (
     </p>
     <p>
         <h2>AWS Amplify</h2>
-        {/* <a href="http://54.200.123.91:9191/"> */}
         <div>
           <a href="https://master.d2zt8y9jdefmo9.amplifyapp.com/">
             Charlie
           </a>
         </div>
+    </p>
+    <p>    
+        <h2>Gastby Cloud</h2>
         <div>
-          <a href="https://master.d2tvn6b4xguc2q.amplifyapp.com">
+          <a href="https://build-460b6e86-8b9c-4b03-b463-e5ef1826e898.gtsb.io/">
             Hello/Goodbye
           </a>
         </div>
-        <p style={{marginTop: 20}}>
-          <AWSDepLogo />
-        </p>
-
     </p>
     <p>
         <h2>Heroku Cloud Services</h2>
